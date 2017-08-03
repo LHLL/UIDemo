@@ -34,9 +34,9 @@ class SpinIndicator: UIView {
             isHidden = false
         }else {
             let center = CGPoint(x: frame.width/2, y:frame.height/2)
-            let outPath = UIBezierPath(arcCenter: center, radius: 40, startAngle: 0, endAngle: CGFloat(2*M_PI), clockwise: true)
-            let inPath = UIBezierPath(arcCenter: center, radius: 33, startAngle: 0, endAngle: CGFloat(2*M_PI), clockwise: true)
-            let spinPath = UIBezierPath(arcCenter: center, radius: 36, startAngle: 0, endAngle: CGFloat(2*M_PI), clockwise: true)
+            let outPath = UIBezierPath(arcCenter: center, radius: 40, startAngle: 0, endAngle: CGFloat(2 * Double.pi), clockwise: true)
+            let inPath = UIBezierPath(arcCenter: center, radius: 33, startAngle: 0, endAngle: CGFloat(2*Double.pi), clockwise: true)
+            let spinPath = UIBezierPath(arcCenter: center, radius: 36, startAngle: 0, endAngle: CGFloat(2*Double.pi), clockwise: true)
             
             let outerlayer = CAShapeLayer()
             outerlayer.path = outPath.cgPath
@@ -62,7 +62,7 @@ class SpinIndicator: UIView {
         
         let rotationAnimation = CABasicAnimation(keyPath: "transform.rotation")
         rotationAnimation.fromValue = 0.0
-        rotationAnimation.toValue = Float(M_PI * 2.0)
+        rotationAnimation.toValue = Float(Double.pi * 2.0)
         rotationAnimation.duration = 1
         rotationAnimation.repeatCount = Float.infinity
         
