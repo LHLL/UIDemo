@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="AlbumCollectionViewCell" customModule="UIDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="507" height="230"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="507" height="230"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="21" translatesAutoresizingMaskIntoConstraints="NO" id="R2G-4l-qe1">
+                        <rect key="frame" x="0.0" y="0.0" width="165" height="165"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="165" id="6nW-9b-zbe"/>
+                            <constraint firstAttribute="height" constant="165" id="UZI-za-3eE"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adele" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XA9-37-XHQ">
+                        <rect key="frame" x="0.0" y="202" width="165" height="28"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="21" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F90-k3-yrd">
+                        <rect key="frame" x="0.0" y="173" width="165" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="mhI-YX-Jju"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="21" translatesAutoresizingMaskIntoConstraints="NO" id="aNr-2s-cIT">
+                        <rect key="frame" x="342" y="0.0" width="165" height="165"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="165" id="NvA-aj-4HI"/>
+                            <constraint firstAttribute="width" constant="165" id="iHA-l6-ovH"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="21" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xwa-Tp-dHr">
+                        <rect key="frame" x="342" y="173" width="165" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="AVU-RJ-Kf2"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adele" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FmH-pk-Ttb">
+                        <rect key="frame" x="342" y="202" width="165" height="28"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Xwa-Tp-dHr" firstAttribute="trailing" secondItem="aNr-2s-cIT" secondAttribute="trailing" id="6JX-wT-I2G"/>
+                <constraint firstItem="FmH-pk-Ttb" firstAttribute="top" secondItem="Xwa-Tp-dHr" secondAttribute="bottom" constant="8" id="6f3-Ce-kTP"/>
+                <constraint firstItem="F90-k3-yrd" firstAttribute="leading" secondItem="R2G-4l-qe1" secondAttribute="leading" id="AGx-kq-d8M"/>
+                <constraint firstItem="F90-k3-yrd" firstAttribute="trailing" secondItem="R2G-4l-qe1" secondAttribute="trailing" id="C0B-HD-4aD"/>
+                <constraint firstItem="XA9-37-XHQ" firstAttribute="top" secondItem="F90-k3-yrd" secondAttribute="bottom" constant="8" id="CZu-ya-EgQ"/>
+                <constraint firstItem="XA9-37-XHQ" firstAttribute="trailing" secondItem="R2G-4l-qe1" secondAttribute="trailing" id="EE5-h5-4HP"/>
+                <constraint firstItem="FmH-pk-Ttb" firstAttribute="leading" secondItem="aNr-2s-cIT" secondAttribute="leading" id="KWD-pW-WAW"/>
+                <constraint firstItem="FmH-pk-Ttb" firstAttribute="trailing" secondItem="aNr-2s-cIT" secondAttribute="trailing" id="M48-Z6-VPe"/>
+                <constraint firstAttribute="bottom" secondItem="FmH-pk-Ttb" secondAttribute="bottom" id="Q3u-vU-Fnt"/>
+                <constraint firstItem="Xwa-Tp-dHr" firstAttribute="leading" secondItem="aNr-2s-cIT" secondAttribute="leading" id="RpV-AX-SiW"/>
+                <constraint firstAttribute="trailing" secondItem="aNr-2s-cIT" secondAttribute="trailing" id="WlI-Li-oJa"/>
+                <constraint firstItem="R2G-4l-qe1" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="XWT-Bp-dhD"/>
+                <constraint firstAttribute="bottom" secondItem="XA9-37-XHQ" secondAttribute="bottom" id="cYu-pc-7fU"/>
+                <constraint firstItem="F90-k3-yrd" firstAttribute="top" secondItem="R2G-4l-qe1" secondAttribute="bottom" constant="8" id="dss-4C-6DH"/>
+                <constraint firstItem="R2G-4l-qe1" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="gep-le-KRR"/>
+                <constraint firstItem="Xwa-Tp-dHr" firstAttribute="top" secondItem="aNr-2s-cIT" secondAttribute="bottom" constant="8" id="kAj-aO-Py0"/>
+                <constraint firstItem="XA9-37-XHQ" firstAttribute="leading" secondItem="R2G-4l-qe1" secondAttribute="leading" id="v34-d9-mcQ"/>
+                <constraint firstItem="aNr-2s-cIT" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="wxA-G9-Wan"/>
+            </constraints>
+            <size key="customSize" width="417" height="222"/>
+            <point key="canvasLocation" x="208.5" y="137.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="21" width="112" height="112"/>
+    </resources>
+</document>
