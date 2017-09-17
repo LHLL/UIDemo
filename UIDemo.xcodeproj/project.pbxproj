@@ -45,6 +45,8 @@
 		AE7E79171DF5F3F500CF2E15 /* DotsIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7E79161DF5F3F500CF2E15 /* DotsIndicator.swift */; };
 		AE7E791A1DF5FA6700CF2E15 /* BlinkIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7E79191DF5FA6700CF2E15 /* BlinkIndicator.swift */; };
 		AE7E791C1DF62A0200CF2E15 /* EscapingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7E791B1DF62A0200CF2E15 /* EscapingIndicator.swift */; };
+		BA852D441F6EFE59004E43AF /* UploadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA852D421F6EFE59004E43AF /* UploadingView.swift */; };
+		BA852D451F6EFE59004E43AF /* UploadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA852D431F6EFE59004E43AF /* UploadingView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +96,8 @@
 		AE7E79161DF5F3F500CF2E15 /* DotsIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotsIndicator.swift; sourceTree = "<group>"; };
 		AE7E79191DF5FA6700CF2E15 /* BlinkIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlinkIndicator.swift; sourceTree = "<group>"; };
 		AE7E791B1DF62A0200CF2E15 /* EscapingIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EscapingIndicator.swift; sourceTree = "<group>"; };
+		BA852D421F6EFE59004E43AF /* UploadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadingView.swift; sourceTree = "<group>"; };
+		BA852D431F6EFE59004E43AF /* UploadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UploadingView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,13 +167,15 @@
 				AE266F321DF1EEDD00BD1D2D /* Main.storyboard */,
 				AE7E79181DF5F40300CF2E15 /* Indicators */,
 				AE2BCB7D1DF8EAA600789546 /* AlbumCollectionViewCell.swift */,
+				AE2BCB7E1DF8EAA600789546 /* AlbumCollectionViewCell.xib */,
 				AE42B0711DF23B1600DB0A60 /* MyCollectionViewCell.swift */,
 				AE7E79141DF5E90100CF2E15 /* DemoCollectionViewCell.swift */,
-				AE2BCB7E1DF8EAA600789546 /* AlbumCollectionViewCell.xib */,
 				AE0DD4071E3815ED00E4EE3D /* CardCollectionViewCell.swift */,
 				AE0DD4081E3815ED00E4EE3D /* CardCollectionViewCell.xib */,
 				AE79F3901E3923C200456FAF /* CardDetailCollectionViewCell.swift */,
 				AE79F3911E3923C200456FAF /* CardDetailCollectionViewCell.xib */,
+				BA852D421F6EFE59004E43AF /* UploadingView.swift */,
+				BA852D431F6EFE59004E43AF /* UploadingView.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -308,6 +314,7 @@
 				AE266F5F1DF234B700BD1D2D /* ionicons.bundle in Resources */,
 				AE0DD40A1E3815ED00E4EE3D /* CardCollectionViewCell.xib in Resources */,
 				AE2BCB801DF8EAA600789546 /* AlbumCollectionViewCell.xib in Resources */,
+				BA852D451F6EFE59004E43AF /* UploadingView.xib in Resources */,
 				AE266F361DF1EEDD00BD1D2D /* Assets.xcassets in Resources */,
 				AE266F341DF1EEDD00BD1D2D /* Main.storyboard in Resources */,
 				AE2FCC661E5CB57D0039FC9C /* MusicTableViewCell.xib in Resources */,
@@ -321,6 +328,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA852D441F6EFE59004E43AF /* UploadingView.swift in Sources */,
 				AE2BCB7F1DF8EAA600789546 /* AlbumCollectionViewCell.swift in Sources */,
 				AE2FCC691E5CBED70039FC9C /* MovieCollectionViewCell.swift in Sources */,
 				AE266F5E1DF234B700BD1D2D /* FontInspector.m in Sources */,

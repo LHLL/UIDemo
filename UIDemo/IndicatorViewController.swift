@@ -41,7 +41,13 @@ class IndicatorViewController: UIViewController,UICollectionViewDataSource, UICo
                                                            action: #selector(back))
         listHeight.constant = UIScreen.main.bounds.height/2
         automaticallyAdjustsScrollViewInsets = false
-        titles = ["Spinning Indicator", "Breath Indicator", "Dots Indicator", "Escaping Indicator", "Bouncing Indicator", "Blink Indicator"]
+        titles = ["Spinning Indicator",
+                  "Breath Indicator",
+                  "Dots Indicator",
+                  "Escaping Indicator",
+                  "Bouncing Indicator",
+                  "Blink Indicator",
+                  "Upload Icon"]
     }
     
     func back() {
@@ -54,7 +60,7 @@ class IndicatorViewController: UIViewController,UICollectionViewDataSource, UICo
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 6
+        return 7
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -137,6 +143,20 @@ class IndicatorViewController: UIViewController,UICollectionViewDataSource, UICo
                     }
                 }
                 blink.show()
+            }else if indexPath.item == 6{
+                let up = Bundle.main.loadNibNamed("UploadingView", owner: nil, options: nil)?.first as! UploadingView
+                up.frame = CGRect(x: 150, y: 100, width: 100, height: 100)
+                cell.containerView.addSubview(up)
+                if cell.containerView.subviews.count>=2 {
+                    if let dummyView = cell.containerView.subviews[cell.containerView.subviews.count-2] as? UploadingView {
+                        dummyView.done()
+                    }else {
+                        cell.containerView.subviews[cell.containerView.subviews.count-2].removeFromSuperview()
+                    }
+                }
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: { 
+                    up.startAnimation()
+                })
             }
             return cell
         }else {

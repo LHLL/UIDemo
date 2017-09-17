@@ -14,6 +14,7 @@ class MyCollectionViewCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         containerView.layer.cornerRadius = 15
+        containerView.isUserInteractionEnabled = true
     }
     
 }
