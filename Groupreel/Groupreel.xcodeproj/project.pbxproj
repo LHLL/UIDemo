@@ -9,10 +9,8 @@
 /* Begin PBXBuildFile section */
 		BA105C051FDFBC2800DC4341 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA105C041FDFBC2800DC4341 /* PaymentViewController.swift */; };
 		BA2B0FAD200DBCCE00F255D5 /* WebComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2B0FA9200DBCCE00F255D5 /* WebComponents.swift */; };
-		BA2B0FAE200DBCCE00F255D5 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2B0FAA200DBCCE00F255D5 /* Event.swift */; };
 		BA2B0FAF200DBCCE00F255D5 /* WebUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2B0FAB200DBCCE00F255D5 /* WebUtility.swift */; };
 		BA2B0FB0200DBCCE00F255D5 /* WebServiceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2B0FAC200DBCCE00F255D5 /* WebServiceHandler.swift */; };
-		BA2B0FB2200DBCD900F255D5 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2B0FB1200DBCD900F255D5 /* Utility.swift */; };
 		BA2B0FB4200DBCE700F255D5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2B0FB3200DBCE700F255D5 /* Extensions.swift */; };
 		BA2EF1C51FD9FCBC005AAAC9 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2EF1C41FD9FCBC005AAAC9 /* EventViewController.swift */; };
 		BA2EF1C81FDA0536005AAAC9 /* EventNameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2EF1C61FDA0536005AAAC9 /* EventNameCell.swift */; };
@@ -30,10 +28,11 @@
 		BA2EF1DF1FDF655A005AAAC9 /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2EF1DE1FDF655A005AAAC9 /* DateViewController.swift */; };
 		BA2EF1E11FDF6B8D005AAAC9 /* GroupreelColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2EF1E01FDF6B8D005AAAC9 /* GroupreelColor.swift */; };
 		BA2EF1E31FDF6BBA005AAAC9 /* GroupreelImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2EF1E21FDF6BBA005AAAC9 /* GroupreelImages.swift */; };
+		BA2FF27C200E72830036A72E /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2FF27B200E72830036A72E /* Event.swift */; };
+		BA2FF27E200E728C0036A72E /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2FF27D200E728C0036A72E /* Utility.swift */; };
 		BA4809811FCF756E00B31A55 /* SignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4809801FCF756E00B31A55 /* SignViewController.swift */; };
 		BA4809831FD0E22700B31A55 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4809821FD0E22700B31A55 /* SigninViewController.swift */; };
 		BA4809851FD0E23800B31A55 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4809841FD0E23800B31A55 /* SignupViewController.swift */; };
-		BA4809871FD0F44200B31A55 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4809861FD0F44200B31A55 /* Utility.swift */; };
 		BA4809891FD8C15D00B31A55 /* CreateEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4809881FD8C15D00B31A55 /* CreateEventViewController.swift */; };
 		BA4CCC9E1FF31FB4008D8BD3 /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4CCC9D1FF31FB4008D8BD3 /* TimeViewController.swift */; };
 		BA69DB011FAC287500FDDDFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA69DB001FAC287500FDDDFE /* AppDelegate.swift */; };
@@ -75,7 +74,6 @@
 		BAF95E842006D284005E644B /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF95E832006D284005E644B /* NewViewController.swift */; };
 		BAF95E872006D7B7005E644B /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF95E852006D7B7005E644B /* EventCell.swift */; };
 		BAF95E882006D7B7005E644B /* EventCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAF95E862006D7B7005E644B /* EventCell.xib */; };
-		BAF95E8A2006DC1A005E644B /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF95E892006DC1A005E644B /* Event.swift */; };
 		BAFF3F2B20097F7500BD59B6 /* EndDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF3F2A20097F7500BD59B6 /* EndDateViewController.swift */; };
 		E2D9906CAE06D3E942C5AA88 /* Pods_Groupreel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82F96A00CF34C4E5B474BF7 /* Pods_Groupreel.framework */; };
 /* End PBXBuildFile section */
@@ -85,10 +83,8 @@
 		4B943D6CC9A49929FD63B45D /* Pods-Groupreel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Groupreel.release.xcconfig"; path = "Pods/Target Support Files/Pods-Groupreel/Pods-Groupreel.release.xcconfig"; sourceTree = "<group>"; };
 		BA105C041FDFBC2800DC4341 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 		BA2B0FA9200DBCCE00F255D5 /* WebComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebComponents.swift; sourceTree = "<group>"; };
-		BA2B0FAA200DBCCE00F255D5 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Event.swift; path = "../../../../../API Tester/API Tester/Event.swift"; sourceTree = "<group>"; };
 		BA2B0FAB200DBCCE00F255D5 /* WebUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebUtility.swift; sourceTree = "<group>"; };
 		BA2B0FAC200DBCCE00F255D5 /* WebServiceHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceHandler.swift; sourceTree = "<group>"; };
-		BA2B0FB1200DBCD900F255D5 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utility.swift; path = "../../../../../API Tester/API Tester/SupportingFiles/Utility.swift"; sourceTree = "<group>"; };
 		BA2B0FB3200DBCE700F255D5 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		BA2EF1C41FD9FCBC005AAAC9 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
 		BA2EF1C61FDA0536005AAAC9 /* EventNameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventNameCell.swift; sourceTree = "<group>"; };
@@ -106,10 +102,11 @@
 		BA2EF1DE1FDF655A005AAAC9 /* DateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
 		BA2EF1E01FDF6B8D005AAAC9 /* GroupreelColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupreelColor.swift; sourceTree = "<group>"; };
 		BA2EF1E21FDF6BBA005AAAC9 /* GroupreelImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupreelImages.swift; sourceTree = "<group>"; };
+		BA2FF27B200E72830036A72E /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		BA2FF27D200E728C0036A72E /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		BA4809801FCF756E00B31A55 /* SignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignViewController.swift; sourceTree = "<group>"; };
 		BA4809821FD0E22700B31A55 /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
 		BA4809841FD0E23800B31A55 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
-		BA4809861FD0F44200B31A55 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		BA4809881FD8C15D00B31A55 /* CreateEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEventViewController.swift; sourceTree = "<group>"; };
 		BA4CCC9D1FF31FB4008D8BD3 /* TimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
 		BA69DAFD1FAC287500FDDDFE /* Groupreel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Groupreel.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -158,7 +155,6 @@
 		BAF95E832006D284005E644B /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		BAF95E852006D7B7005E644B /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
 		BAF95E862006D7B7005E644B /* EventCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventCell.xib; sourceTree = "<group>"; };
-		BAF95E892006DC1A005E644B /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		BAFF3F2A20097F7500BD59B6 /* EndDateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndDateViewController.swift; sourceTree = "<group>"; };
 		F82F96A00CF34C4E5B474BF7 /* Pods_Groupreel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Groupreel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -230,20 +226,18 @@
 		BA69DB131FAC292400FDDDFE /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BA2FF27D200E728C0036A72E /* Utility.swift */,
+				BA2FF27B200E72830036A72E /* Event.swift */,
 				BA2B0FB3200DBCE700F255D5 /* Extensions.swift */,
-				BA2B0FB1200DBCD900F255D5 /* Utility.swift */,
-				BA2B0FAA200DBCCE00F255D5 /* Event.swift */,
 				BA2B0FA9200DBCCE00F255D5 /* WebComponents.swift */,
 				BA2B0FAC200DBCCE00F255D5 /* WebServiceHandler.swift */,
 				BA2B0FAB200DBCCE00F255D5 /* WebUtility.swift */,
 				BA69DB001FAC287500FDDDFE /* AppDelegate.swift */,
 				BA69DB2F1FB1145400FDDDFE /* Video.swift */,
 				BA6DFB941FBBAC3A00E7A39B /* Phone.swift */,
-				BA4809861FD0F44200B31A55 /* Utility.swift */,
 				BA2EF1E01FDF6B8D005AAAC9 /* GroupreelColor.swift */,
 				BA2EF1E21FDF6BBA005AAAC9 /* GroupreelImages.swift */,
 				BADAC9E41FFDB04C0082CE73 /* CustomCell.swift */,
-				BAF95E892006DC1A005E644B /* Event.swift */,
 				BA77DE22200831700092266B /* Enumerous.swift */,
 			);
 			path = Models;
@@ -489,8 +483,10 @@
 				BA6DFB9D1FC0C59100E7A39B /* ContactsViewController.swift in Sources */,
 				BA69DB2D1FB10BAE00FDDDFE /* VideoCell.swift in Sources */,
 				BA69DB2A1FB109C800FDDDFE /* VideoViewController.swift in Sources */,
+				BA2FF27C200E72830036A72E /* Event.swift in Sources */,
 				BA105C051FDFBC2800DC4341 /* PaymentViewController.swift in Sources */,
 				BAF95E842006D284005E644B /* NewViewController.swift in Sources */,
+				BA2FF27E200E728C0036A72E /* Utility.swift in Sources */,
 				BA7BCD111FB274000092C779 /* RecordCell.swift in Sources */,
 				BA4809811FCF756E00B31A55 /* SignViewController.swift in Sources */,
 				BAF95E872006D7B7005E644B /* EventCell.swift in Sources */,
@@ -500,7 +496,6 @@
 				BAFF3F2B20097F7500BD59B6 /* EndDateViewController.swift in Sources */,
 				BA2EF1C51FD9FCBC005AAAC9 /* EventViewController.swift in Sources */,
 				BA2EF1C81FDA0536005AAAC9 /* EventNameCell.swift in Sources */,
-				BA2B0FAE200DBCCE00F255D5 /* Event.swift in Sources */,
 				BA69DB1B1FAC30DB00FDDDFE /* AttendeesCell.swift in Sources */,
 				BA2EF1CC1FDA074B005AAAC9 /* ScheduleCell.swift in Sources */,
 				BA69DB301FB1145400FDDDFE /* Video.swift in Sources */,
@@ -512,11 +507,9 @@
 				BA4809831FD0E22700B31A55 /* SigninViewController.swift in Sources */,
 				BA2EF1E31FDF6BBA005AAAC9 /* GroupreelImages.swift in Sources */,
 				BA77DE23200831700092266B /* Enumerous.swift in Sources */,
-				BA4809871FD0F44200B31A55 /* Utility.swift in Sources */,
 				BA69DB011FAC287500FDDDFE /* AppDelegate.swift in Sources */,
 				BA2B0FB0200DBCCE00F255D5 /* WebServiceHandler.swift in Sources */,
 				BA2B0FAF200DBCCE00F255D5 /* WebUtility.swift in Sources */,
-				BAF95E8A2006DC1A005E644B /* Event.swift in Sources */,
 				BA4CCC9E1FF31FB4008D8BD3 /* TimeViewController.swift in Sources */,
 				BA2EF1E11FDF6B8D005AAAC9 /* GroupreelColor.swift in Sources */,
 				BA69DB231FAC39DE00FDDDFE /* FootageCell.swift in Sources */,
@@ -525,7 +518,6 @@
 				BA6DFB9A1FBFAD6900E7A39B /* AddCell.swift in Sources */,
 				BA6DFB921FBB9B9600E7A39B /* PhoneCell.swift in Sources */,
 				BA2EF1DC1FDF436A005AAAC9 /* CheckoutCell.swift in Sources */,
-				BA2B0FB2200DBCD900F255D5 /* Utility.swift in Sources */,
 				BA2EF1D81FDA1358005AAAC9 /* NoteCell.swift in Sources */,
 				BA6DFB971FBBBF5B00E7A39B /* ShareViewController.swift in Sources */,
 				BA4809891FD8C15D00B31A55 /* CreateEventViewController.swift in Sources */,
