@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		BA105C051FDFBC2800DC4341 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA105C041FDFBC2800DC4341 /* PaymentViewController.swift */; };
+		BA2B0FAD200DBCCE00F255D5 /* WebComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2B0FA9200DBCCE00F255D5 /* WebComponents.swift */; };
+		BA2B0FAE200DBCCE00F255D5 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2B0FAA200DBCCE00F255D5 /* Event.swift */; };
+		BA2B0FAF200DBCCE00F255D5 /* WebUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2B0FAB200DBCCE00F255D5 /* WebUtility.swift */; };
+		BA2B0FB0200DBCCE00F255D5 /* WebServiceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2B0FAC200DBCCE00F255D5 /* WebServiceHandler.swift */; };
+		BA2B0FB2200DBCD900F255D5 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2B0FB1200DBCD900F255D5 /* Utility.swift */; };
+		BA2B0FB4200DBCE700F255D5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2B0FB3200DBCE700F255D5 /* Extensions.swift */; };
 		BA2EF1C51FD9FCBC005AAAC9 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2EF1C41FD9FCBC005AAAC9 /* EventViewController.swift */; };
 		BA2EF1C81FDA0536005AAAC9 /* EventNameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2EF1C61FDA0536005AAAC9 /* EventNameCell.swift */; };
 		BA2EF1C91FDA0536005AAAC9 /* EventNameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA2EF1C71FDA0536005AAAC9 /* EventNameCell.xib */; };
@@ -78,6 +84,12 @@
 		10A29DD4F166E7521B4E3CB8 /* Pods-Groupreel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Groupreel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Groupreel/Pods-Groupreel.debug.xcconfig"; sourceTree = "<group>"; };
 		4B943D6CC9A49929FD63B45D /* Pods-Groupreel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Groupreel.release.xcconfig"; path = "Pods/Target Support Files/Pods-Groupreel/Pods-Groupreel.release.xcconfig"; sourceTree = "<group>"; };
 		BA105C041FDFBC2800DC4341 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		BA2B0FA9200DBCCE00F255D5 /* WebComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebComponents.swift; sourceTree = "<group>"; };
+		BA2B0FAA200DBCCE00F255D5 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Event.swift; path = "../../../../../API Tester/API Tester/Event.swift"; sourceTree = "<group>"; };
+		BA2B0FAB200DBCCE00F255D5 /* WebUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebUtility.swift; sourceTree = "<group>"; };
+		BA2B0FAC200DBCCE00F255D5 /* WebServiceHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceHandler.swift; sourceTree = "<group>"; };
+		BA2B0FB1200DBCD900F255D5 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utility.swift; path = "../../../../../API Tester/API Tester/SupportingFiles/Utility.swift"; sourceTree = "<group>"; };
+		BA2B0FB3200DBCE700F255D5 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		BA2EF1C41FD9FCBC005AAAC9 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
 		BA2EF1C61FDA0536005AAAC9 /* EventNameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventNameCell.swift; sourceTree = "<group>"; };
 		BA2EF1C71FDA0536005AAAC9 /* EventNameCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventNameCell.xib; sourceTree = "<group>"; };
@@ -218,6 +230,12 @@
 		BA69DB131FAC292400FDDDFE /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BA2B0FB3200DBCE700F255D5 /* Extensions.swift */,
+				BA2B0FB1200DBCD900F255D5 /* Utility.swift */,
+				BA2B0FAA200DBCCE00F255D5 /* Event.swift */,
+				BA2B0FA9200DBCCE00F255D5 /* WebComponents.swift */,
+				BA2B0FAC200DBCCE00F255D5 /* WebServiceHandler.swift */,
+				BA2B0FAB200DBCCE00F255D5 /* WebUtility.swift */,
 				BA69DB001FAC287500FDDDFE /* AppDelegate.swift */,
 				BA69DB2F1FB1145400FDDDFE /* Video.swift */,
 				BA6DFB941FBBAC3A00E7A39B /* Phone.swift */,
@@ -477,10 +495,12 @@
 				BA4809811FCF756E00B31A55 /* SignViewController.swift in Sources */,
 				BAF95E872006D7B7005E644B /* EventCell.swift in Sources */,
 				BA7BCCFA1FB1A0FB0092C779 /* InviteCell.swift in Sources */,
+				BA2B0FAD200DBCCE00F255D5 /* WebComponents.swift in Sources */,
 				BAF95E822006CFC9005E644B /* UpcomingViewController.swift in Sources */,
 				BAFF3F2B20097F7500BD59B6 /* EndDateViewController.swift in Sources */,
 				BA2EF1C51FD9FCBC005AAAC9 /* EventViewController.swift in Sources */,
 				BA2EF1C81FDA0536005AAAC9 /* EventNameCell.swift in Sources */,
+				BA2B0FAE200DBCCE00F255D5 /* Event.swift in Sources */,
 				BA69DB1B1FAC30DB00FDDDFE /* AttendeesCell.swift in Sources */,
 				BA2EF1CC1FDA074B005AAAC9 /* ScheduleCell.swift in Sources */,
 				BA69DB301FB1145400FDDDFE /* Video.swift in Sources */,
@@ -494,6 +514,8 @@
 				BA77DE23200831700092266B /* Enumerous.swift in Sources */,
 				BA4809871FD0F44200B31A55 /* Utility.swift in Sources */,
 				BA69DB011FAC287500FDDDFE /* AppDelegate.swift in Sources */,
+				BA2B0FB0200DBCCE00F255D5 /* WebServiceHandler.swift in Sources */,
+				BA2B0FAF200DBCCE00F255D5 /* WebUtility.swift in Sources */,
 				BAF95E8A2006DC1A005E644B /* Event.swift in Sources */,
 				BA4CCC9E1FF31FB4008D8BD3 /* TimeViewController.swift in Sources */,
 				BA2EF1E11FDF6B8D005AAAC9 /* GroupreelColor.swift in Sources */,
@@ -503,9 +525,11 @@
 				BA6DFB9A1FBFAD6900E7A39B /* AddCell.swift in Sources */,
 				BA6DFB921FBB9B9600E7A39B /* PhoneCell.swift in Sources */,
 				BA2EF1DC1FDF436A005AAAC9 /* CheckoutCell.swift in Sources */,
+				BA2B0FB2200DBCD900F255D5 /* Utility.swift in Sources */,
 				BA2EF1D81FDA1358005AAAC9 /* NoteCell.swift in Sources */,
 				BA6DFB971FBBBF5B00E7A39B /* ShareViewController.swift in Sources */,
 				BA4809891FD8C15D00B31A55 /* CreateEventViewController.swift in Sources */,
+				BA2B0FB4200DBCE700F255D5 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
